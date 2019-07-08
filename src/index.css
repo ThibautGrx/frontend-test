@@ -1,17 +1,17 @@
-.root {
-  flex-grow: 1;
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
 }
-.paper {
-  margin: 'auto';
-  max-width: 500;
-}
-image {
-  width: 128;
-  height: 128;
-}
-img {
-  margin: 'auto';
-  display: 'block';
-  max-width: '100%';
-  max-height: '100%';
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
 }

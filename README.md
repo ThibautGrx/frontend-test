@@ -64,7 +64,7 @@ The different values they should be able to select are:
 - duration (in days): between 1 and 30
 - distance (in kms): 50, 100, 150, 200, 250, 300, ... up to 3000
 
-When drivers edit these inputs, another request to the API, with `duration` and `distance` query parameters, should be made. The API will only return available cars for the given parameters in the response. _Please do not use the `availability` fields of the response, they are only here for debugging purposes._
+When drivers edit these einputs, another request to th API, with `duration` and `distance` query parameters, should be made. The API will only return available cars for the given parameters in the response. _Please do not use the `availability` fields of the response, they are only here for debugging purposes._
 
 ### Level 3: calculate rental price
 

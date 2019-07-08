@@ -1,6 +1,8 @@
 import "./index.css";
-import CarList from './carList'
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App  from './app';
 
-ReactDOM.render(<CarList />, document.getElementById('root'));
+ReactDOM.render(
+  <App/>
+, document.getElementById('root'));
